@@ -14,7 +14,7 @@ jobs:
       shell: cmd
       run: |
         cd /d D:\VideoDL
-        ..\youtube-dl.exe  https://www.youtube.com/playlist?list=PLwXMmy5fUrVwWPIPrKCdPNuq6pUUE6qai
+        ..\youtube-dl.exe  https://www.youtube.com/watch?list=PLlJF1kjI1-qvLbmIL95I_OZP5DqA9iQxK
     - name : Upload artifact
       uses: actions/upload-artifact@master
       with:
